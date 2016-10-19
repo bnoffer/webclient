@@ -98,8 +98,8 @@ namespace WebClient
 			HttpClient client = new HttpClient (handler, false);
 			client.Timeout = this.Timeout;
 
-			var response = await client.SendAsync (request);
-			return response;
+            var response = await client.SendAsync(request).ConfigureAwait(false);
+            return response;
 		}
 
 		/// <summary>
