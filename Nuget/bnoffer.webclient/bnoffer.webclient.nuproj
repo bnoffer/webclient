@@ -7,7 +7,7 @@
     <ProjectGuid>{02F498EF-52BB-4F0A-BF26-1B5ED191CC71}</ProjectGuid>
     <Description>Web client is a wrapper around System.Net.Http.HttpClient</Description>
     <PackageId>bnoffer.webclient</PackageId>
-    <PackageVersion>1.0.3</PackageVersion>
+    <PackageVersion>1.0.4</PackageVersion>
     <Authors>bnoffer</Authors>
     <DevelopmentDependency>false</DevelopmentDependency>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
@@ -20,11 +20,12 @@
     <Copyright>©2017 Bastian Noffer</Copyright>
     <PackageTags>Http,Client</PackageTags>
     <Title>WebClient</Title>
-    <PackageReleaseNotes>v.1.0.3: Library is now a release build.</PackageReleaseNotes>
+    <PackageReleaseNotes>v.1.0.4: Library now uses PCL profile 111. For WebDAVNet 1.0.2 use version 1.0.3.</PackageReleaseNotes>
     <Summary>Web client is a wrapper around System.Net.Http.HttpClient</Summary>
     <PackageProjectUrl>https://github.com/bnoffer/webclient</PackageProjectUrl>
     <PackageIconUrl>https://raw.githubusercontent.com/bnoffer/owncloud-sharp/master/Nuget/nuget.png</PackageIconUrl>
     <PackageLicenseUrl>https://github.com/bnoffer/webclient/blob/master/LICENSE.md</PackageLicenseUrl>
+    <ReleaseVersion>0.1.0</ReleaseVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
