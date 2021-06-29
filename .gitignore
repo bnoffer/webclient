@@ -38,3 +38,9 @@ Thumbs.db
 
 #dotCover
 *.dotCover
+
+#VS folder
+.vs/
+
+#Nuget packages
+*.nupkg
